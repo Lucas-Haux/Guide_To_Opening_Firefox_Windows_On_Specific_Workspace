@@ -1,6 +1,8 @@
 # Guide_To_Opening_Firefox_Windows_On_Specific_Workspace
 Guide and script for automatically opening Firefox windows on specific workspaces in Hyprland. While designed with Hyprland in mind, the general concept can be adapted for other window managers with similar functionality.
 
+A script is needed to detect a window title change because Firefox starts up with an generic title and changes it later on. This makes using an Hyprland window rule not possible.
+
 ## Requirements 
 - [Window Titler Extension](https://github.com/tpamula/webextension-window-titler) (for giving each window a unique title).
 - Hyprland (for the provided script).
